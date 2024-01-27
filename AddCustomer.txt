@@ -1,0 +1,39 @@
+''*****************************************************************************
+
+'' ABC Automated Testing
+'' Copyright (c) 2009 ABC
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: adduser
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials						Name/Company
+'' --------		 				-----------------------------------------
+'' rw 							Rick Wagonner ABC INC
+
+'' REVISION HISTORY:
+
+'' Date/Initials	 	Comments
+'' ---------					-------------------------------
+
+'' 02/20/2009  rw	Created for LoanApp 2.1
+
+
+''*****************************************
+
+''SCRIPT
+
+
+'Valid input
+AddCustomer "Julia"," Roberts", "1100 Sunset blvd", "Hollywood","CA", "98286"
+
+'Invalid input - missing First Name
+AddCustomer "","Roberts","1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+'Invalid input - missing Last Name
+AddCustomer "Julia","","1100 Sunset blvd", "Hollywood", "CA", "98286"
+
