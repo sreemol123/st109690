@@ -40,9 +40,6 @@ AddCustomer "Maggy"," Xavier", "3300 Delmont blvd", "Mollywood","CA", "23456"
 'Valid input
 AddCustomer "Annie"," Bonnie", "4400 Burbank blvd", "Kollywood","CA", "45862"
 
-'Valid input
-AddCustomer "jennie"," Sam", "5500 Ravineview blvd", "Hollywood","CA", "98325"
-
 'Invalid input - missing First Name
 AddCustomer "","Roberts","1100 Sunset blvd", "Hollywood", "CA", "98286"
 
