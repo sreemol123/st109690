@@ -31,6 +31,15 @@
 'Valid input
 AddCustomer "Julia"," Roberts", "1100 Sunset blvd", "Hollywood","CA", "98286"
 
+'Valid input
+AddCustomer "Sofia"," Sunny", "2200 danforth blvd", "Bollywood","CA", "98856"
+
+'Valid input
+AddCustomer "Maggy"," Xavier", "3300 Delmont blvd", "Mollywood","CA", "23456"
+
+'Valid input
+AddCustomer "Annie"," Bonnie", "4400 Burbank blvd", "Kollywood","CA", "45862"
+
 'Invalid input - missing First Name
 AddCustomer "","Roberts","1100 Sunset blvd", "Hollywood", "CA", "98286"
 
